@@ -28,6 +28,10 @@
         <a href="#prudai">Prūdai</a>
         <a href="#parkas">Parkas</a>
         <a href="#vieta">Vieta</a>
+
+    </div>
+    <div>
+
     </div>
 
 
@@ -38,8 +42,11 @@
             <div>
                 <p class="privalumai"><img
                         src="https://lh5.googleusercontent.com/proxy/mS2wPznNIRAQDbBiIWkRAuiPQDrAIeMd5n53hvgX53cg3b9ynU4SgNhPvWWlTSXINFpncoePFTdXgI8et8iUJKiM8eT9q7TyAJg7gChgrWeeQQbxhIkzcPl2"
-                        alt="gimnazija"> <img src="https://www.activevilnius.lt/upl/aikstynai/a16_83_maxi.jpg"
-                        alt="stadionas"> </p>
+                        alt="gimnazija"> <b> Gimnazija </b> <img
+                        src="https://www.activevilnius.lt/upl/aikstynai/a16_83_maxi.jpg" alt="stadionas"> <b>
+                        Stadionas</b> <img
+                        src="https://s1.15min.lt/static/cache/MTIwMHg2MjgsLDYyNTk0MSxvcmlnaW5hbCwsaWQ9NDA3MzA2OCZkYXRlPTIwMTglMkYwNyUyRjI3LDE1MDQyNjYyMTA=/maisto-bankui-nuolatine-prekybos-tinklo-lidl-lietuva-parama-produktais-5b5b0c9b46d48.jpg"
+                        alt="Lidl"> <b>Prekybos centrai</b> </p>
             </div>
 
             <p><b>Trakų Vokė turi daug privalumų</b></p>
@@ -56,20 +63,47 @@
             <p>Ir daugybė kitų privalumų</p>
             <h3>Iš čia greitai galite pasiekti šias vietas</h3>
             <p>Vilniaus centras vos 20min. kelio automobiliu</p>
-            <div><img
+            <div><img class="sideimg"
                     src="https://cdn1.onlithuania.com/content/uploads/2021/11/AB2BB6DD-6D32-4015-BB7B-EB9BD6AAA135-scaled.jpeg?v=1637656837"
                     alt="Vilniauscentras" style="width: 450px;">
             </div><br>
             <p>Trakų pilis 10min. kelio automobiliu</p>
-            <div><img src="https://www.govilnius.lt/images/5e1d9dc6d3b1495635480f8e?w=1200&h=760"
-                    alt="trakai" style="width: 450px;"></div><br>
+            <div><img src="https://www.govilnius.lt/images/5e1d9dc6d3b1495635480f8e?w=1200&h=760" alt="trakai"
+                    style="width: 450px;"></div><br>
             <p>Druskininkai kiek daugiau nei valanda kelio</p>
             <div><img src="https://cdn4.onlithuania.com/content/uploads/2018/12/Druskininkai-585x390.jpg"
                     alt="druskininkai" style="width: 450px;"></div>
+            <br>
+            <div class="kontaktuforma">
+                <p><b>Palikite mums žinutę</b></p>
+
+                <div>
+                    <form id="myForm">
+                        <label for="name">Jūsų Vardas</label><br>
+                        <input type="name" id="name" placeholder="vardas" required> <br> <br>
+                        <label for="email">Jūsų el.paštas</label><br>
+                        <input type="email" id="emailInput" placeholder="example@dmail.com" required><br><br>
+                        <label for="age">Jūsų amžius</label><br>
+                        <input type="number" id="ageInput" placeholder="pasirinkite amžių" required><br><br>
+                        <label for="tel">Jūsų telefono numeris</label><br>
+                        <input type="phone" id="telInput" placeholder="+370 123 12345" required><br><br>
+                        <label for="text">Jūsų atsiliepimas</label><br><br>
+                        <input type="text" id="textInput" placeholder="rašykite čia" required> <br><br>
+                        <button type="submit">SIŪSTI</button>
+                        <button type="reset">IŠTRINTI</button>
+                    </form>
+                    <script src="script.js"></script>
+                </div>
+            </div>
+
+
         </div>
+
+
         <div class="main">
             <h2>Trakų Vokės dvaras</h2>
             <h5>Nuotraukos padarytos megėjų</h5>
+
             <div id="dvaras"></div>
             <p>TRAKŲ VOKĖS DVARO SODYBA</p>
             <p>
@@ -170,15 +204,24 @@
 
     <div class="footer">
         <footer class="kontaktai">
-            <div id="vieta">
-                <h3 id="Kontaktai">Kontaktai</h3>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6346.6109179886835!2d25.096401071470073!3d54.62836723722515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dded20592cbc07%3A0xfb5b1928f7f4534f!2zVHJha8WzIFZva8SX!5e0!3m2!1slt!2slt!4v1726326885601!5m2!1slt!2slt"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div>
+                <div id="vieta">
+                    <h3 id="Kontaktai">Kontaktai</h3>
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6346.6109179886835!2d25.096401071470073!3d54.62836723722515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dded20592cbc07%3A0xfb5b1928f7f4534f!2zVHJha8WzIFZva8SX!5e0!3m2!1slt!2slt!4v1726326885601!5m2!1slt!2slt"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+                <div>
+
+                </div>
             </div>
     </div>
-
+    <p class="copyright">
+        Visos teisės saugomos 2024 T.B.
+    </p>
 </body>
 
 </html>
