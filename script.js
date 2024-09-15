@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 function myFunction() {
     var txt;
-    if (confirm("Norint gyventi Trakų Vokėje pakanka nusipirkti čia būstą :)")) {
+    if (confirm("Parašykite mums ir mes jums padėsime")) {
       txt = "You pressed OK!";
     } else {
       txt = "You pressed Cancel!";
