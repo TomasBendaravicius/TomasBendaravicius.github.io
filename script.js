@@ -39,7 +39,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!valid) {
             alert(message);
-            event.preventDefault();  // Prevent form submission
+            event.preventDefault();  
         }
     });
 });
+function myFunction() {
+    var txt;
+    if (confirm("Norint gyventi Trakų Vokėje pakanka nusipirkti čia būstą :)")) {
+      txt = "You pressed OK!";
+    } else {
+      txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo").innerHTML = txt;
+  }
