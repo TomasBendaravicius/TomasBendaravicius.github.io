@@ -59,8 +59,8 @@ body {
 
 
 .main {
-  flex: 70%;
-  padding: 20px;
+  flex: 50%;
+  padding: 10px;
 }
 
 .footer {
@@ -166,20 +166,42 @@ h1:hover {
 
 
 
-button {
+/* button {
   box-shadow: 5px 5px 10px rgb(95, 95, 105);
   margin-left: 60px;
-  border-radius: 10% 10%;
+  border-radius: 10% 10%; */
   /* font-style: italic; */
  
 }
 
-button a:hover {
+/* button a:hover {
   font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: black;
+color: black; */
 /* text-shadow: 6px 6px 15px #0f0; */
 } 
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 
 .gamta img:hover {
@@ -206,6 +228,7 @@ text-decoration: underline;
 }
 .antraste {
   font-family: "Sofia", sans-serif;
+  color: antiquewhite;
 }
 
 h2 {
