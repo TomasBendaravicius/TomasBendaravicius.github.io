@@ -97,7 +97,7 @@ img {
   width: 90%;
   max-width: 1900px;
   height: 300px;
-  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
+  /* box-shadow: 10px 10px 5px rgb(95, 95, 105);  */
   background-repeat: no-repeat;
 
 
@@ -109,7 +109,7 @@ img {
 
   width: 90%;
   height: 300px;
-  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
+  /* box-shadow: 10px 10px 5px rgb(95, 95, 105);  */
   background-repeat: no-repeat;
 }
 
@@ -119,7 +119,7 @@ img {
   width: 90%;
   height: 500px;
   background-repeat: no-repeat;
-  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
+  /* box-shadow: 10px 10px 5px rgb(95, 95, 105);  */
 
 }
 
