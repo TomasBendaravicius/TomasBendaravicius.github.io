@@ -7,9 +7,9 @@
 body {
   font-family: Arial;
   margin: 0;
-    background-image: url(https://www.vle.lt/tmp/vle-images/63188_1.jpg);
-background-size: cover;
-background-attachment: fixed;
+  background-image: url(https://www.vle.lt/tmp/vle-images/63188_1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -123,6 +123,7 @@ img {
 
 .gamta {
   display: inline;
+
 }
 
 .privalumai {
@@ -191,7 +192,7 @@ a {
   font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: black;
-  
+
 }
 
 /* .button {
@@ -271,8 +272,8 @@ input[type=text] {
   border: 2px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
-  background-color:#ddd;
-   padding: 12px 20px 12px 40px;
+  background-color: #ddd;
+  padding: 12px 20px 12px 40px;
   transition: width 0.4s ease-in-out;
   max-width: 350px;
 
@@ -281,7 +282,8 @@ input[type=text] {
 input[type=text]:focus {
   width: 100%;
 }
+
 input:hover {
-  background-color:white;
- 
+  background-color: white;
+
 }
