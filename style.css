@@ -9,6 +9,9 @@ body {
   margin: 0;
   /* background-image: url(../tomasbendaravicius.github.io/img/dangusgiedras.jpg); */
   background-image: url(https://www.vle.lt/tmp/vle-images/63188_1.jpg);
+  /* background-image: url(https://i.ytimg.com/vi/cwAyiPvTN_g/maxresdefault.jpg); */
+  /* background-color: skyblue; */
+
 }
 
 
@@ -82,8 +85,7 @@ img {
 @media screen and (max-width: 700px) {
 
   .row,
-  .navbar
-  {
+  .navbar {
     flex-direction: column;
   }
 }
@@ -155,34 +157,37 @@ h1:hover {
   max-width: 450px;
 }
 
-/* #bio {
-  width: 300px;
-  height: 100px;
-} */
 
 #textInput {
   width: 400px;
   height: 100px;
   word-break: keep-all;
-  
+
 }
 
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
 
 
 .button {
   box-shadow: 5px 5px 10px rgb(95, 95, 105);
+  box-sizing: border-box;
   margin-left: 60px;
   border-radius: 10% 10%;
-  /* font-style: italic; */
- 
+  text-decoration: none;
+
 }
 
 .button a:hover {
   font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: black; */
- text-shadow: 6px 6px 15px #0f0;
-} 
+  color: black;
+  
+}
 
 /* .button {
   padding: 15px 25px;
@@ -216,15 +221,16 @@ color: black; */
   display: flex;
   flex-flow: column;
 
-  position:static;
-  
+  position: static;
+
 }
 
 .copyright:hover {
   font-size: 20px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-text-decoration: underline;
+  text-decoration: underline;
 }
+
 .antraste {
   font-family: "Sofia", sans-serif;
   color: antiquewhite;
@@ -241,6 +247,7 @@ h2 {
 .sideimg:hover {
   width: 550px;
 }
+
 .naujas {
   width: 450px;
 }
@@ -251,4 +258,25 @@ h2 {
 
 #myform {
   max-width: 450px;
+}
+
+input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color:#ddd;
+   padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+  max-width: 350px;
+
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+input:hover {
+  background-color:white;
+ 
 }

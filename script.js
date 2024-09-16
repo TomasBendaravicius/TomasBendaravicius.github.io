@@ -39,31 +39,31 @@ document.addEventListener("DOMContentLoaded", () => {
 
         if (!valid) {
             alert(message);
-            event.preventDefault();  
+            event.preventDefault();
         }
     });
 });
 function myFunction() {
     var txt;
     if (confirm("Parašykite mums ir mes jums padėsime")) {
-      txt = "You pressed OK!";
+        txt = "You pressed OK!";
     } else {
-      txt = "You pressed Cancel!";
+        txt = "You pressed Cancel!";
     }
     document.getElementById("demo").innerHTML = txt;
-  }
+}
 
-  // Get the button
+// Get the button
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
 }
 
