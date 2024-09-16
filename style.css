@@ -7,11 +7,9 @@
 body {
   font-family: Arial;
   margin: 0;
-  /* background-image: url(../tomasbendaravicius.github.io/img/dangusgiedras.jpg); */
-  background-image: url(https://www.vle.lt/tmp/vle-images/63188_1.jpg);
-  /* background-image: url(https://i.ytimg.com/vi/cwAyiPvTN_g/maxresdefault.jpg); */
-  /* background-color: skyblue; */
-
+    background-image: url(https://www.vle.lt/tmp/vle-images/63188_1.jpg);
+background-size: cover;
+background-attachment: fixed;
 }
 
 
