@@ -94,8 +94,10 @@ img {
   /* background-image: url(../tomasbendaravicius.github.io/img/dvaras.jpg); */
   background-image: url(https://cdn3.onlithuania.com/content/uploads/sites/2/2021/12/PSX_20211002_214016-1920x1080-1-1024x576.jpg);
 
-  width: 100%;
+  width: 90%;
   height: 300px;
+  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
+  background-repeat: no-repeat;
 
 
 }
@@ -104,16 +106,19 @@ img {
   /* background-image: url(../tomasbendaravicius.github.io/img/prudai.jpg); */
   background-image: url(https://didikulietuva.lt/wp-content/uploads/2017/05/Traku-vokes-dvaro-sodybos-parkas-110.jpg);
 
-  width: 100%;
+  width: 90%;
   height: 300px;
+  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
+  background-repeat: no-repeat;
 }
 
 #parkas {
   /* background-image: url(../tomasbendaravicius.github.io/img/gamta.jpg); */
   background-image: url(https://media.lrytas.lt/images/2021/10/29/150222876-5bd97a2d-67a6-4ada-8de3-3a8ad98c2851.jpg);
-  width: 100%;
+  width: 90%;
   height: 500px;
   background-repeat: no-repeat;
+  box-shadow: 10px 10px 5px rgb(95, 95, 105); 
 
 }
 
@@ -128,6 +133,7 @@ img {
 
 p {
   font-style: italic;
+  width: 90%;
 }
 
 h1 {
@@ -176,7 +182,7 @@ a {
 .button {
   box-shadow: 5px 5px 10px rgb(95, 95, 105);
   box-sizing: border-box;
-  margin-left: 60px;
+  /* margin-left: 60px; */
   border-radius: 10% 10%;
   text-decoration: none;
 
@@ -213,7 +219,7 @@ a {
 
 
 .gamta img:hover {
-  width: 400px;
+  width: 300px;
   height: auto;
 }
 
