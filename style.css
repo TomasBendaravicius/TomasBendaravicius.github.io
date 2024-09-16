@@ -166,7 +166,7 @@ h1:hover {
 
 
 button {
-  box-shadow: 10px 10px 5px rgb(95, 95, 105);
+  box-shadow: 5px 5px 10px rgb(95, 95, 105);
   margin-left: 60px;
   
  
@@ -176,6 +176,7 @@ button a:hover {
   font-size: 15px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 color: black;
+/* text-shadow: 6px 6px 15px #0f0; */
 } 
 
 
