@@ -139,6 +139,7 @@ h1:hover {
   color: #c1f094;
   text-decoration: underline;
   text-shadow: 3px 3px 12px #0f0;
+  /* font-family: "Sofia", sans-serif; */
 
 }
 
@@ -168,7 +169,8 @@ h1:hover {
 button {
   box-shadow: 5px 5px 10px rgb(95, 95, 105);
   margin-left: 60px;
-  
+  border-radius: 10% 10%;
+  /* font-style: italic; */
  
 }
 
@@ -201,4 +203,11 @@ color: black;
   font-size: 20px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 text-decoration: underline;
+}
+.antraste {
+  font-family: "Sofia", sans-serif;
+}
+
+h2 {
+  font-family: "Sofia", sans-serif;
 }
