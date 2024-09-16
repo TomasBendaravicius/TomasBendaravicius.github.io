@@ -152,6 +152,7 @@ h1:hover {
   border-radius: 15px;
   padding: 30px;
   color: #ddd;
+  max-width: 450px;
 }
 
 /* #bio {
@@ -246,4 +247,8 @@ h2 {
 
 .naujas:hover {
   width: 550px;
+}
+
+#myform {
+  max-width: 450px;
 }
