@@ -95,6 +95,7 @@ img {
   background-image: url(https://cdn3.onlithuania.com/content/uploads/sites/2/2021/12/PSX_20211002_214016-1920x1080-1-1024x576.jpg);
 
   width: 90%;
+  max-width: 1900px;
   height: 300px;
   box-shadow: 10px 10px 5px rgb(95, 95, 105); 
   background-repeat: no-repeat;
