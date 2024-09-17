@@ -86,11 +86,6 @@ img {
   }
 }
 
-@media screen and (max-width: 350px) {
-  #dvaras {
-    
-  }
-}
 
 
 #dvaras {
@@ -145,12 +140,15 @@ h1 {
   font-size: 4rem;
   font-style: italic;
   text-shadow: 5px 5px 10px #0b3816;
+
 }
 
 h1:hover {
   color: #c1f094;
   text-decoration: underline;
   text-shadow: 3px 3px 12px #0f0;
+
+
 
 }
 
